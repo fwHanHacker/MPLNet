@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Environments
+.env
+.venv/
+venv/
+env/
+ENV/
+conda-meta/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+*.so
+*.pyd
+*.dll
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Experiments and generated outputs
+work_dirs/
+runs/
+outputs/
+logs/
+*.log
+
+# Data and model weights
+/mfplnet/data/
+/data/
+/datasets/
+checkpoints/
+pretrained/
+weights/
+*.pth
+*.pt
+*.ckpt
+*.onnx
+
+# Temporary visualization / prediction files
+*_predictions.json
+visualization/
